@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace LinkedList
 {
-    class Node
+    public class Node
     {
+        public Node Next;
+        public object Value;
+    }
+
+    public class Node<T>
+    {
+        public Node<T> Next;
+        public object Value;
     }
 }
